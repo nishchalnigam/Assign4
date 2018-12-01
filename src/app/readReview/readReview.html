@@ -1,0 +1,17 @@
+<div class="panel panel-default">
+        <div class="panel-heading">Book Reviews</div>
+        <div class="panel-body">
+            <div class="input-group">
+                <table class="table table-bordered table-hover">
+                    <tr>
+                    <th>Title</th>
+                    <th>Review</th>
+                    </tr>
+                    <tr ng-repeat="rev in readReview.review">
+                    <td>{{rev.booktitle}}</td>
+                    <td>{{rev.review}}</td>
+                    </tr>
+                    </table>
+             </div>
+        </div>
+    </div>
